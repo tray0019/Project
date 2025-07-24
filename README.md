@@ -23,4 +23,5 @@ Steps Taken:
 5. Created a TaskController and a TaskService
 6. Set @Service annotation in TaskService, created the getAllTask method
 7. Set the @Controller for TaskController. Create method that return tasks, using @GetMapping annotations
-8. Created tasks.html. I added thmymleaf. Set a for each loop that takes in the tasks in the todo-app db. 
+8. Created tasks.html. I added thmymleaf. Set a for each loop that takes in the tasks in the todo-app db.
+9. In my TaskControlelr I added createTask method with @PostMapping Rest API. I also made my createTask method in my TaskService.
